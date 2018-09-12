@@ -61,7 +61,7 @@
 #
 #   Note: Leave a leading space when adding list items with the += operator
 ################################################################################
-# PROJECT_EXCLUSIONS =
+PROJECT_EXCLUSIONS = $(PROJECT_ROOT)/bin% $(PROJECT_ROOT)/obj% $(PROJECT_ROOT)/cmake-build-debug%
 
 ################################################################################
 # PROJECT LINKER FLAGS
