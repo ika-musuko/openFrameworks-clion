@@ -1,15 +1,9 @@
 #include "ofApp.h"
 
 //--------------------------------------------------------------
-void ofApp::setup(){
-    ofSetBackgroundColor(ofColor::black);
-    bHide = false;
-    gui.setup();
-    gui.add(camDistance.setup("Camera Distance", 20, 10, 50));
-    cam.setDistance(camDistance);
+void ofApp::setup() {
 
 }
-
 //--------------------------------------------------------------
 void ofApp::update(){
 
