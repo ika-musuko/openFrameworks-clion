@@ -18,5 +18,9 @@ i'll make an actual readme if someone asks me to, add an issue if you want it
 
 ## hey it doesn't work this is a scam!!
 1. *Install Linux*
-2. use your package manager to find any missing dependencies (ex: <code>apt search [thing]</code>)
-3. install the appropriate packages you find (usually they are something like "libthing-dev" although for gst/gst.h problems you might as well just do <code>sudo apt install gstreamer*</code>)
+2. ensure openFramework's built in ./install_dependencies.sh was done correctly (re-run it?)
+3. use your package manager to find any missing dependencies (ex: <code>apt search [thing]</code>)
+4. install the appropriate packages you find (usually they are something like "libthing-dev") 
+  - gotchas 
+    - utf8.h is libutfcpp-dev
+    - for gst/gst.h problems you might as well just do <code>sudo apt install gstreamer*</code>
