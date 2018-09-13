@@ -12,7 +12,7 @@ i'll make an actual readme if someone asks me to, add an issue if you want it
 
 ## using existing openFrameworks files
 1. clone this
-2. rm -rf .git
+2. <code>rm -rf .git</code>
 2. delete everything in src and replace them with your own (or clone your files inside src)
 3. if you want to use git, <code>git init</code> inside src 
 
