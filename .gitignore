@@ -3,7 +3,8 @@
 ### Example user template
 
 # IntelliJ project files
-.idea
+.idea/*
+!.idea/runConfigurations
 *.iml
 out
 gen
