@@ -128,7 +128,7 @@ PROJECT_EXCLUSIONS = $(PROJECT_ROOT)/bin% $(PROJECT_ROOT)/obj% $(PROJECT_ROOT)/c
 #   Note: Leave a leading space when adding list items with the += operator
 ################################################################################
 # PROJECT_OPTIMIZATION_CFLAGS_RELEASE = 
-# PROJECT_OPTIMIZATION_CFLAGS_DEBUG = 
+# PROJECT_OPTIMIZATION_CFLAGS_DEBUG = -g
 
 ################################################################################
 # PROJECT COMPILERS
