@@ -13,10 +13,9 @@ readme will be constantly updated as i use this template project more. if someth
 ## basic setup instructions (assumes you already know how to use CLion and have the above dependency installed in CLion)
 1. clone this
 2. <code>rm -rf .git</code>
-3. run <code>make Debug</code> to initially generate a debug executable for CLion
-4. open CLion and **Import** the folder (don't just open). click "open existing project" in the subsequent popup
-5. run the <code>oFDebug</code> build mode
-6.  have fun
+3. open CLion and **Import** the folder (don't just open). click "open existing project" in the subsequent popup
+4. run the <code>oFDebug</code> build mode
+5.  have fun
 
 ## existing oF project
 follow the above steps and then replace everything in src/ with your files. modify the Source Files section of CMakeLists.txt accordingly. 
