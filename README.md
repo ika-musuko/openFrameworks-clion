@@ -1,6 +1,8 @@
 # openFrameworks-clion
 sherwyn's personal template project for openframeworks and clion, with a built in CLion debug configuration. 
 
+this assumes you have already installed openframeworks https://openframeworks.cc/ according to the linux gcc6 configuration.
+
 stole ideas from around the internet and https://forum.openframeworks.cc/t/are-there-any-plan-for-supporting-clion/17188/52
 
 readme will be constantly updated as i use this template project more. if something doesn't work, write an issue.
