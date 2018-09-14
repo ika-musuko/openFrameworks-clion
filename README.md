@@ -19,7 +19,7 @@ this guide assumes you already know how to use CLion and have the above dependen
 1. clone this
 2. <code>rm -rf .git</code>
 3. open CLion and **Import** the folder (don't just open). click "open existing project" in the subsequent popup
-4. go to <code>CMakeLists.txt</code> and change <code>OF_DIRECTORY</code> argument to your openFrameworks root path under the the <code>===================== oF Directory =====================</code> section
+4. go to <code>CMakeLists.txt</code> and change <code>OF_DIRECTORY</code> argument to your openFrameworks root path under the <code>===================== oF Directory =====================</code> section
 5. run the <code>oFDebug</code> build mode
 6.  have fun
 
