@@ -24,7 +24,7 @@ this guide assumes you already know how to use CLion and have the above dependen
 4. go to <code>CMakeLists.txt</code> and change <code>OF_DIRECTORY</code> argument to your openFrameworks root path under the <code>===================== oF Directory =====================</code> section
 5. go to <code>Makefile</code> and change <code>OF_ROOT</code> to the absolute root path of openFrameworks
 5. run the <code>oFDebug</code> build mode
-    - the normal clion build mode will **not** work. use my oFDebug build mode
+    - the normal clion build mode via CMake will **not** work. use my oFDebug build mode which has gnumake build the project instead
 6.  have fun
 
 ## existing oF project
