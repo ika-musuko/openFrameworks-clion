@@ -7,6 +7,8 @@ stole ideas from around the internet and https://forum.openframeworks.cc/t/are-t
 
 readme will be constantly updated as i use this template project more. if something doesn't work, write an issue.
 
+the makefile stuff is for getting compilation to work (!!important!!) but the cmake stuff is just for getting jetbrains's code completion/autosuggest/other magic to work). it will be a good day when jetbrains decides to directly support other methods of building (such as makefiles alone)
+
 ## CLion dependencies
 - makefile support https://plugins.jetbrains.com/plugin/9333-makefile-support (you can  install this from the built in plugin manager in CLion settings)
 
@@ -22,6 +24,7 @@ this guide assumes you already know how to use CLion and have the above dependen
 4. go to <code>CMakeLists.txt</code> and change <code>OF_DIRECTORY</code> argument to your openFrameworks root path under the <code>===================== oF Directory =====================</code> section
 5. go to <code>Makefile</code> and change <code>OF_ROOT</code> to the absolute root path of openFrameworks
 5. run the <code>oFDebug</code> build mode
+    - the normal clion build mode will **not** work. use my oFDebug build mode
 6.  have fun
 
 ## existing oF project
