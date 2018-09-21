@@ -37,7 +37,7 @@ set(OF_SOURCE_FILES
         ${OF_DIRECTORY}/libs/openFrameworks/graphics/ofImage.cpp
         ${OF_DIRECTORY}/libs/openFrameworks/graphics/ofPath.cpp
         ${OF_DIRECTORY}/libs/openFrameworks/graphics/ofPixels.cpp
-        #${OF_DIRECTORY}/libs/openFrameworks/graphics/ofPolyline.cpp
+        ${OF_DIRECTORY}/libs/openFrameworks/graphics/ofPolyline.inl
         ${OF_DIRECTORY}/libs/openFrameworks/graphics/ofRendererCollection.cpp
         ${OF_DIRECTORY}/libs/openFrameworks/graphics/ofTessellator.cpp
         ${OF_DIRECTORY}/libs/openFrameworks/graphics/ofTrueTypeFont.cpp
