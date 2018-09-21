@@ -26,24 +26,6 @@ set(SOURCE_FILES
 # =============================================================
 
 # ===================== Include Dirs =====================
-## GStreamer 1.0 package required
-find_package(PkgConfig)
-
-macro(find_gstreamer_component prefix pkg lib)
-  pkg_check_modules(PC_${prefix} REQUIRED ${pkg})
-  find_library(${prefix}_LIBRARIES NAMES ${lib} HINTS ${PC_${prefix}_LIBRARY_DIRS} ${PC_${prefix}_LIBDIR})
-  list(APPEND GST_INCLUDE_DIRS ${PC_${prefix}_INCLUDE_DIRS})
-  list(APPEND GST_LIBRARIES ${${prefix}_LIBRARIES})
-  mark_as_advanced(${prefix}_LIBRARIES GST_LIBRARIES GST_INCLUDE_DIRS)
-endmacro()
-
-find_gstreamer_component(gst      gstreamer-1.0       gstreamer-1.0)
-find_gstreamer_component(gstbase  gstreamer-base-1.0  gstbase-1.0)
-find_gstreamer_component(gstapp   gstreamer-app-1.0   gstapp-1.0)
-find_gstreamer_component(gstvideo gstreamer-video-1.0 gstvideo-1.0)
-
-include_directories(${GST_INCLUDE_DIRS})
-link_libraries(${GST_LIBRARIES})
 
 # ========================================================
 
